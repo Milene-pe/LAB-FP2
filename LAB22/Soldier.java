@@ -1,4 +1,3 @@
-import java.util.Map;
 
 public class Soldier {
     private String name;
