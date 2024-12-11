@@ -10,13 +10,6 @@ public class Knight extends Soldier {
         super(name, kingdom, attackLevel, defenseLevel, healthLevel, row, column);
     }
 
-    public void envelop() {
-        int numberOfAttacks = isMounted ? 3 : 2;
-
-        for (int i = 0; i < numberOfAttacks; i++) {
-            System.out.println("Attacking with " + weapon);
-        }
-    }
 
     public void disassemble() {
         if (isMounted) {
